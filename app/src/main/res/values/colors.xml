@@ -1,0 +1,6 @@
+<resources>
+    <color name="launcher_bg">#3575F6</color>
+    <color name="alias_tools_bg">#3575F6</color>
+    <color name="alias_notes_bg">#F28940</color>
+    <color name="alias_space_bg">#282D40</color>
+</resources>

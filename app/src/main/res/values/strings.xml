@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">占位工具</string>
+    <string name="alias_tools">工具</string>
+    <string name="alias_notes">笔记</string>
+    <string name="alias_space">空间</string>
+    <string name="shortcut_tools">工具</string>
+    <string name="shortcut_notes">笔记</string>
+    <string name="shortcut_space">空间</string>
+    <string name="shortcut_guide">指南</string>
+    <string name="shortcut_fallback_label">桌面图标</string>
+    <string name="intro">先测 pinned shortcuts：抽屉里只保留这个本体，桌面上新增多个占位图标。重点观察图标是否被 One UI 裁成一致圆角，以及右下角是否仍然有来源 badge。</string>
+    <string name="shortcut_section">Shortcut 验证</string>
+    <string name="add_shortcut_button">添加桌面图标：%1$s</string>
+    <string name="alias_section">Alias 对照组</string>
+    <string name="alias_tip">开启后，抽屉会临时出现 3 个分身；它们是标准 launcher entry，图标更接近普通 app。测试完可以关闭。</string>
+    <string name="enable_aliases_button">开启 alias 测试入口</string>
+    <string name="disable_aliases_button">关闭 alias 测试入口</string>
+    <string name="open_home_settings_button">打开 One UI Home 设置</string>
+    <string name="shortcut_not_supported">当前桌面不支持 requestPinShortcut</string>
+    <string name="shortcut_requested">已请求添加：%1$s</string>
+    <string name="shortcut_pinned">已添加：%1$s</string>
+    <string name="aliases_enabled">已开启 alias，稍等桌面刷新</string>
+    <string name="aliases_disabled">已关闭 alias，稍等桌面刷新</string>
+    <string name="home_settings_not_found">没有找到桌面设置入口</string>
+</resources>
