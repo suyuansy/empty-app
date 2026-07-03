@@ -12,13 +12,10 @@
             android:name=".BlankActivity"
             android:excludeFromRecents="true"
             android:exported="true"
-            android:finishOnTaskLaunch="true"
-            android:launchMode="singleTask"
-            android:noHistory="true"
-            android:theme="@style/BlankTheme" />
+            android:theme="@style/SlotTheme" />
 
         <activity
-            android:name=".ShortcutHostActivity"
+            android:name=".HostActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,16 +23,11 @@
             </intent-filter>
         </activity>
 
-        <receiver
-            android:name=".ShortcutPinnedReceiver"
-            android:exported="false" />
-
         <activity-alias
-            android:name=".AliasTools"
-            android:enabled="false"
+            android:name=".Lorem"
             android:exported="true"
-            android:icon="@mipmap/ic_alias_tools"
-            android:label="@string/alias_tools"
+            android:icon="@mipmap/ic_lorem"
+            android:label="@string/app_lorem"
             android:targetActivity=".BlankActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -44,11 +36,10 @@
         </activity-alias>
 
         <activity-alias
-            android:name=".AliasNotes"
-            android:enabled="false"
+            android:name=".Ipsum"
             android:exported="true"
-            android:icon="@mipmap/ic_alias_notes"
-            android:label="@string/alias_notes"
+            android:icon="@mipmap/ic_ipsum"
+            android:label="@string/app_ipsum"
             android:targetActivity=".BlankActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -57,11 +48,22 @@
         </activity-alias>
 
         <activity-alias
-            android:name=".AliasSpace"
-            android:enabled="false"
+            android:name=".Amet"
             android:exported="true"
-            android:icon="@mipmap/ic_alias_space"
-            android:label="@string/alias_space"
+            android:icon="@mipmap/ic_amet"
+            android:label="@string/app_amet"
+            android:targetActivity=".BlankActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:name=".Vita"
+            android:exported="true"
+            android:icon="@mipmap/ic_vita"
+            android:label="@string/app_vita"
             android:targetActivity=".BlankActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

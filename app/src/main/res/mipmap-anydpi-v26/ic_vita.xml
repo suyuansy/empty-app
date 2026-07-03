@@ -1,0 +1,5 @@
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/vita_bg" />
+    <foreground android:drawable="@drawable/ic_vita_foreground" />
+    <monochrome android:drawable="@drawable/ic_vita_foreground" />
+</adaptive-icon>

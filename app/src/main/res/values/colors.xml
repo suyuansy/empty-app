@@ -1,6 +1,7 @@
 <resources>
-    <color name="launcher_bg">#3575F6</color>
-    <color name="alias_tools_bg">#3575F6</color>
-    <color name="alias_notes_bg">#F28940</color>
-    <color name="alias_space_bg">#282D40</color>
+    <color name="launcher_bg">#667085</color>
+    <color name="lorem_bg">#3F8DD8</color>
+    <color name="ipsum_bg">#63A57D</color>
+    <color name="amet_bg">#C85772</color>
+    <color name="vita_bg">#8A63D2</color>
 </resources>
